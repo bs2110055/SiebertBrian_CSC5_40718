@@ -12,9 +12,6 @@ using namespace std;
 //User Libraries
 
 //Global Constants
-const float QUARTER=25;//(cents)
-const float DIME=10;//(cents)
-const float NICKEL=5;//(cents)
 
 //Function Prototypes
 
@@ -29,13 +26,13 @@ int main(int argc, char** argv) {
     cout<<"Press return after entering a number.\n\n";
     cout<<"Enter the number of quarters:\n";
     cin>>number_of_quarters;
-    worth_of_quarters = number_of_quarters*QUARTER;
+    worth_of_quarters = number_of_quarters*25;
     cout<<"Enter the number of dimes:\n";
     cin>>number_of_dimes;
-    worth_of_dimes = number_of_dimes*DIME;
+    worth_of_dimes = number_of_dimes*10;
     cout<<"Enter the number of nickels:\n";
     cin>>number_of_nickels;
-    worth_of_nickels=number_of_nickels*NICKEL;
+    worth_of_nickels=number_of_nickels*5;
     worth_of_coins=worth_of_quarters+worth_of_dimes+worth_of_nickels;       
     cout<<"The monetary value of the coins are: ";
     cout<<worth_of_coins;
