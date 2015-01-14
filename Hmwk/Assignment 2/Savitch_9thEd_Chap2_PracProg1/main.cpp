@@ -17,35 +17,35 @@ using namespace std;
 
 //Execution Begins Here!
 int main(int argc, char** argv) {
-    
+char ans;
+float ounce, ton, boxes;
+do
+{
+cout << "This program will read the weight of a package of\n";
+cout << "breakfast cereal in ounces and output the weight\n";
+cout << "in metric tons as well as the number of boxes\n";
+cout << "needed to yield 1 metric ton of cereal.\n\n";
 
-    float x, ounce, ton, boxes, ans;
-    
-    do
-    {
-    cout << "This program will read the weight of a package of\n";
-    cout << "breakfast cereal in ounces and output the weight\n";  
-    cout << "in metric tons as well as the number of boxes\n";    
-    cout << "needed to yield 1 metric ton of cereal.\n\n";     
-    
-    cout << "Press return after entering a number.\n";
-    cout << "Enter the weight of a package of breakfast cereal in ounces:\n";
-    
-    cin >> ounce;
-    ton = ounce/35273.92;
-    boxes = 35273.92/ounce;
-    cout << "Weight in metic tons:\n";
-    cout << ton;
-    cout << "\n";
-    cout << "Number of boxes needed to yield 1 metric ton of cereal:\n";
-    cout << boxes;
-    cout << "\n\n";
-    cout << "Do you want another calculation?\n";
-    cout << "Press y for yes, n for no,\n";
-    cout << "and then press return: ";
-    cin >> ans;
-    } while (ans == 'y' || ans == 'Y');
-    
-    return 0;
-    }
+cout << "Press return after entering a number.\n";
+cout << "Enter the weight of a package of breakfast cereal in ounces:\n";
 
+cin >> ounce;
+
+ton = ounce/35273.92;
+boxes = 35273.92/ounce;
+
+cout << "Weight in metic tons:\n";
+cout << ton;
+cout << "\n";
+cout << "Number of boxes needed to yield 1 metric ton of cereal:\n";
+cout << boxes;
+cout << "\n\n";
+    
+    
+cout << "Do you want another calculation?\n"
+<< "Press y for yes, n for no,\n"
+<< "and then press return: ";
+cin >> ans;
+} while (ans == 'y' || ans == 'Y');
+return 0;
+}
