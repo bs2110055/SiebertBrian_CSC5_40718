@@ -17,8 +17,12 @@ using namespace std;
 
 //Execution Begins Here!
 int main(int argc, char** argv) {
-    float x, ounce, ton, boxes;
-      
+    
+
+    float x, ounce, ton, boxes, ans;
+    
+    do
+    {
     cout << "This program will read the weight of a package of\n";
     cout << "breakfast cereal in ounces and output the weight\n";  
     cout << "in metric tons as well as the number of boxes\n";    
@@ -35,8 +39,13 @@ int main(int argc, char** argv) {
     cout << "\n";
     cout << "Number of boxes needed to yield 1 metric ton of cereal:\n";
     cout << boxes;
+    cout << "\n\n";
+    cout << "Do you want another calculation?\n";
+    cout << "Press y for yes, n for no,\n";
+    cout << "and then press return: ";
+    cin >> ans;
+    } while (ans == 'y' || ans == 'Y');
     
     return 0;
-}
-
+    }
 
