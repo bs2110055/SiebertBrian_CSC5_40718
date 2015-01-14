@@ -1,0 +1,7 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=47291407
+eax=00000000 ebx=472A0C40 ecx=00000063 edx=00000000 esi=61007200 edi=611839C0
+ebp=00000000 esp=0028ABC0 program=C:\Users\rcc\Desktop\SiebertBrian_CSC5_40718\Class_Lab\Savitch_9thEd_Chap2_PracProg4\dist\Debug\Cygwin_4.x-Windows\savitch_9thed_chap2_pracprog4.exe, pid 5520, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+End of stack trace
