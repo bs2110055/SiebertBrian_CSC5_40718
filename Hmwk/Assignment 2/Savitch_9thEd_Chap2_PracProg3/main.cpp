@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
     float fmspm;//Fraction left for seconds per mile
     
     //Prompt for input
-    cout << "how many miles are you running"<<endl;
+    cout << "How many miles are you running"<<endl;
     cout << "in an hour?"<<endl;
     cout << "Format answer as a float."<<endl;
     cin >> mph;
