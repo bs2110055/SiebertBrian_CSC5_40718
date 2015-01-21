@@ -53,9 +53,9 @@ if((p1=='R'||p1=='r')&&(p2=='P'||p2=='p'))
     cout<<"Paper covers Rock"<<endl<<"Player Two wins"<<endl;
 
 if((p1=='P'||p1=='p')&&(p2=='S'||p2=='s'))
-    cout<<"Scissors cut Paper"<<endl<<"Player Two wins"<<endl;
+    cout<<"Scissors cuts Paper"<<endl<<"Player Two wins"<<endl;
 if((p1=='S'||p1=='s')&&(p2=='P'||p2=='p'))
-    cout<<"Scissors cut Paper"<<endl<<"Player One wins"<<endl;
+    cout<<"Scissors cuts Paper"<<endl<<"Player One wins"<<endl;
 
 if((p1=='R'||p1=='r')&&(p2=='S'||p2=='s'))
     cout<<"Rock breaks Scissors"<<endl<<"Player One wins"<<endl;
